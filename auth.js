@@ -2,7 +2,7 @@
 function login(username, password) {
   const users = {
     admin: { password: "9999", locked: false },
-    lockeduser: { password: "123", locked: true },
+    lockeduser: { password: "9999", locked: true },
   };
 
   if (!username || !password) return false;
