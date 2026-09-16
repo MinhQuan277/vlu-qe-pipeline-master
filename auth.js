@@ -1,3 +1,4 @@
+// Cập nhật: bổ sung ghi chú kiểm tra tài khoản bị khóa - Feature update-login
 function login(username, password) {
   const users = {
     admin: { password: "123", locked: false },
