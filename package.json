@@ -1,0 +1,14 @@
+{
+  "name": "vlu-qe-pipeline-master",
+  "version": "1.0.0",
+  "description": "Walking Skeleton - Software Testing 71ITSE41203",
+  "main": "auth.js",
+  "scripts": {
+    "test": "jest",
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
